@@ -18,6 +18,7 @@ public class Pilha {
 		//pop retira o livro da pilha e retorna ele
 		System.out.println(pilha.pop());
 		System.out.println(pilha.pop());
+		
 	}
 
 }
