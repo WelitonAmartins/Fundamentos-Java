@@ -25,6 +25,10 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	// criando metado estatico para referenciar a uma metado no lambda
+	public static boolean staticProductPredicate(Product p) {
+		return p.getPrice() >= 100.0;
+	}
 
 	@Override
 	public String toString() {
