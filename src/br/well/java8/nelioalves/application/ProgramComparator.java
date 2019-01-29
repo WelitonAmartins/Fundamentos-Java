@@ -6,7 +6,7 @@ import java.util.List;
 
 import br.well.java8.nelioalves.entities.Product;
 
-public class ProgramProduct {
+public class ProgramComparator {
 
 	public static void main(String[] args) {
 		
