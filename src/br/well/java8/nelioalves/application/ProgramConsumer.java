@@ -23,6 +23,7 @@ public class ProgramConsumer {
 			list.forEach(cons);
 		*/
 		
+		// fazendo a funcao direto no lambda com consumer para adicionar 10% do valor para cada item 
 		double factor =1.1;
 		list.forEach(p -> p.setPrice(p.getPrice() * factor));
 		
